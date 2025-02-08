@@ -24,7 +24,7 @@ You can get started with our [minimal starter](https://github.com/nuxt-ui-pro/st
 
 ```bash
 # npm
-npm install @nuxt/ui-pro
+npm install Source-plox/nuxt-ui-pro-nolicense
 # yarn
 yarn add @nuxt/ui-pro
 # pnpm
@@ -33,37 +33,18 @@ pnpm add @nuxt/ui-pro
 bun add @nuxt/ui-pro
 ```
 
-Note that `@nuxt/ui-pro` will also install [`@nuxt/ui`](https://ui.nuxt.com) as dependency to your project.
+Note that `nuxt-ui-pro-nolicense` will also install [`@nuxt/ui`](https://ui.nuxt.com) as dependency to your project.
 
 Next, add it to your `nuxt.config.ts` in the `extends` property:
 
 ```ts
 export default defineNuxtConfig({
-  extends: ['@nuxt/ui-pro'],
+  extends: ['nuxt-ui-pro-nolicense'],
   modules: ['@nuxt/ui']
 })
 ```
 
 Start your development server, you should now be able to use all the components, composables and utils from Nuxt UI Pro 🚀
-
-## License Key
-
-Nuxt UI Pro is free in development, but you need a license to use it in production. You can choose between **Solo** and **Team**, both will give you access to the same features and give you a license key required to build your apps. The main difference is the number of developers that can be invited to the private GitHub repository.
-
-Once you've purchased [Nuxt UI Pro](https://ui.nuxt.com/pro/pricing), you will receive an email with a license key to activate. Visit https://ui.nuxt.com/pro/activate to activate your license with your GitHub username and license key, you will be invited to the private GitHub repository.
-
-Then, use your license key in your `.env` file:
-
-```
-# .env
-NUXT_UI_PRO_LICENSE=<your-license-key>
-```
-
-If you have multiple projects on your machine, you can also add it to your `~/.nuxtrc`:
-
-```
-uiPro.license=<your-token>
-```
 
 ## Showcase
 
